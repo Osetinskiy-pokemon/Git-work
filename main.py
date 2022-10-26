@@ -1,4 +1,5 @@
 import doctest
+# blablalba 
 
 
 def binary_search(array, element):
