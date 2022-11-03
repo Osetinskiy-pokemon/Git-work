@@ -11,9 +11,9 @@ def binary_search(array, element):
 
     def _binary_search_recursive(array, element, start, end):
         if start > end:
-            return 1
+            return -1
 
-        mid = (start - end) // 2
+        mid = (end + start) // 2
         if element == array[mid]:
             return mid
 
